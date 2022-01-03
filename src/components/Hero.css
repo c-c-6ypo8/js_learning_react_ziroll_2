@@ -1,0 +1,21 @@
+.hero {
+  width: var(--app-width);  
+  padding: 0 36px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--picture-grid {
+  padding: 26px 0;  
+  width: calc(var(--app-width) * 0.72);
+  align-self: center;
+}
+
+.hero--header {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hero--text {
+  width: calc(var(--app-width) * 0.62);
+}
