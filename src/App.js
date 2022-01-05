@@ -1,7 +1,7 @@
 import './App.css'
 import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
-import {Cards } from './components/Cards'
+import { Card } from './components/Card'
 
 function App() {
   return (
@@ -11,7 +11,17 @@ function App() {
       </header>
       <main>
         <Hero />
-        <Cards />
+        <section className='cards-band'>
+          <Card
+            img='exp1.png'
+            rating={5.0}
+            reviewCount={6}
+            country='USA'
+            title='Life Lessons with Katie Zaferes'
+            price={136}
+            status='SOLD OUT'
+          />
+        </section>
       </main>
     </div>
   )

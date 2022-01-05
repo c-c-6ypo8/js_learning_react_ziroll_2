@@ -1,7 +1,6 @@
-.cards {  
-  padding: 50px 0 30px 36px;
-  overflow: hidden;
-  width: var(--app-width);
+.card {
+  font-size: 12px;
+  position: relative;
 }
 
 .card--picture {
@@ -9,8 +8,8 @@
 }
 
 .card--status {
-  position: relative;
-  top: 23px;
+  position: absolute;
+  top: 6px;
   left: 6px;
   font-size: 10.24px;
   background-color: white;
@@ -19,19 +18,15 @@
   padding: 1px 4px 0px;  
 }
 
-.card--text {
-  font-size: 12px;
-}
-
-.card--text--stats {  
+.card--stats {  
   display: flex;
 }
 
-.card--text--stats-grayed {
+.grayed {
   color: #918E9B;
 }
 
-.card--text--stats--star {
+.card--stats--star {
   height: 14px;
   width: 14px;
 }
