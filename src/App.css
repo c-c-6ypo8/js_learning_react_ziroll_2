@@ -29,8 +29,14 @@ main {
   overflow: hidden;
 }
 
-.cards-band {  
+.cards-band {
   padding: 50px 0 30px 36px;
   overflow: hidden;
-  width: var(--app-width);  
+  width: var(--app-width);
+  display: flex;
+  gap: 18px;
+}
+
+span {
+  white-space: pre-wrap;
 }

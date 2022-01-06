@@ -10,7 +10,7 @@ export const Card = ({
   price,
   status,
 }) => (
-  <div className='card'>
+  <article className='card'>
     {status && <div className='card--status'>{status}</div>}
     <img
       className='card--picture'
@@ -19,13 +19,13 @@ export const Card = ({
     />
     <p className='card--stats'>
       <img className='card--stats--star' src={star} alt='star' />
-      <span>&nbsp;{rating.toPrecision(2) ?? '???'}&nbsp;</span>
+      <span> {rating.toPrecision(2) ?? '???'} </span>
       <span className='grayed'>({reviewCount ?? '?'}) • </span>
-      <span className='grayed'>&nbsp;{country ?? '?'}</span>
+      <span className='grayed'>{country ?? '?'}</span>
     </p>
     <p>{title ?? '???'}</p>
     <p>
-      <strong>From ${price ?? '?'} </strong>/ person
+      <strong>From {'$' + (price ?? '?')} </strong>/ person
     </p>
-  </div>
+  </article>
 )
