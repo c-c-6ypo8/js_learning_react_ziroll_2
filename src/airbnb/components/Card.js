@@ -13,7 +13,7 @@ export const Card = (p) => {
       {badgeText && <div className='card--status'>{badgeText}</div>}
       <img
         className='card--picture'
-        src={'./assets/' + (p.img ?? 'exp-empty.png')}
+        src={'./assets/airbnb/' + (p.img ?? 'exp-empty.png')}
         alt={p.img ?? 'exp-empty.png'}
       />
       <p className='card--stats'>

@@ -1,0 +1,12 @@
+.travel-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  background-color: #F55A5A;
+  color: white;
+  padding: 16px;
+  font-size: 14.46px;
+  letter-spacing: -0.5px;
+}

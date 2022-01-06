@@ -1,0 +1,21 @@
+.app-airbnb {
+  border-radius: 7px;
+  width: var(--app-width);
+  background-color: white;
+  overflow: hidden;
+}
+
+.air-main {
+  display: flex;
+  padding: 0 36px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards-band {
+  padding: 50px 30px 30px 36px;
+  overflow: scroll;
+  width: var(--app-width);
+  display: flex;
+  gap: 18px;
+}

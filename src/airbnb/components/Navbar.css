@@ -1,4 +1,4 @@
-.nav {
+.air-nav {
   display: flex;
   justify-content: center;
   padding: 22px 0;
@@ -6,7 +6,7 @@
   box-shadow: 0 2.98px 7.46px rgb(0, 0, 0, 0.1);
 }
 
-.nav--container {
+.air-nav--container {
   padding: 0 30px;
   display: flex;
   justify-content: space-between;
