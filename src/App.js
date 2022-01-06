@@ -12,21 +12,11 @@ export const App = () => (
     <main>
       <Hero />
       <section className='cards-band'>
-        {data.map(
-          ({ id, img, rating, status, price, title, country, reviewCount }) => (
-            <Card
-              img={img}
-              rating={rating}
-              reviewCount={reviewCount}
-              country={country}
-              title={title}
-              price={price}
-              status={status}
-              key={id}
-            />
-          ),
-        )}
+        {data.map((cardData) => (
+          <Card {...cardData} key={cardData.id} />
+        ))}
       </section>
+      <div>&nbsp;</div>
     </main>
   </div>
 )

@@ -30,8 +30,8 @@ main {
 }
 
 .cards-band {
-  padding: 50px 0 30px 36px;
-  overflow: hidden;
+  padding: 50px 30px 30px 36px;
+  overflow: scroll;
   width: var(--app-width);
   display: flex;
   gap: 18px;
