@@ -37,4 +37,4 @@ for (let app of apps) {
   })
 }
 
-choose(linkTravelJournal)
+choose(linkAirbnb)
